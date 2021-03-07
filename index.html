@@ -7,9 +7,35 @@
   always use this encoding when building webpages.-->
   <meta charset="utf-8">
   <title>Go's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Commenting out since we are going to use EXTERNAL CSS to apply the style
+    on every page of the website
+  </style>
+  <style media="screen">
+    body {
+      background-color: mediumpurple;
+    }
+
+    hr {
+
+      border-style: none;
+      border-top: thick dotted mediumslateblue;
+      width: 5%;
+    }
+
+    img {
+      height: 200px;
+    }
+  </style>
+-->
 </head>
 
+<!-- Changed the background color using inline css -->
+
+<!--<body style="background-color : blue;"> commenting out due to Internal CSS-->
+
 <body>
+
   <!-- we create this table to stylize the page. So the image goes to the left
   and the content goes to the right. We also use cellspacing to put space between
   the cells in the row-->
@@ -19,26 +45,29 @@
     which is the source of the image. it can be an url or it can be a file your
   pc. You can use it directly if it is in the same directory or have to specify
 the path of the file in order to display it-->
-      <td><img src="images/chunli.png" alt="Go Profile picture"></td>
+      <td><img src="images/myself.png" alt="Go Profile picture" height="200"></td>
       <td>
         <h1>Go Ushiyama</h1>
         <p><em>IT Technician of <strong><a href="https://www.topcon-medical.eu/es/">Topcon Medical Spain</a></strong></em></p>
-        <p>I love gaming, reading detective novel. Currently studying very hard on <br />
-          programming, now switched to web programming in hopes to one day get a job<br />
-          in this industry.</p>
+        <p>I love gaming, reading detective / fantasy novel. <br />
+          Currently studying very hard on web programming <br />
+          in order to achieve my goal.</p>
       </td>
     </tr>
   </table>
   <hr />
+  <!--
   <h3>Education</h3>
-  <!-- unsorted list like bullet points -->
+  unsorted list like bullet points
   <ul>
-    <!-- the actual data inside the list using li-->
-    <li>Graduated Highschool in Kensington School of barcelona</li>
+  the actual data inside the list using li
+    <li>Graduated Highschool in Kensington School of Barcelona</li>
+    No need to mention this.
     <li>Did not complete University of Computer Science due to Real life issues(incompetence of mine)</li>
-    <li>Finished Colledge of Brighton for GNVQ Intermediate in Engineering<br /></li>
+    <li>Colledge of Brighton for GNVQ Intermediate in Engineering<br /></li>
   </ul>
   <hr>
+-->
   <h3>Work Experience</h3>
   <!-- we can use <table size ="1"> for example. But it is not recommended Science
   we are using html to structure and not for style -->
@@ -77,10 +106,11 @@ the path of the file in order to display it-->
   <table cellspacing="10">
     <tr>
       <td>
-        <table border=" 1">
+        <table>
           <tr>
             <td>Spanish (language)</td>
             <td>🌟🌟🌟🌟🌟</td>
+          </tr>
           <tr>
             <td>English (language)</td>
             <td>🌟🌟🌟🌟🌟</td>
@@ -89,28 +119,16 @@ the path of the file in order to display it-->
             <td>Japanese (language)</td>
             <td>🌟🌟🌟🌟</td>
           </tr>
-        </table>
-      </td>
-      <td>
-        <table border="1">
-          <tr>
-            <td>Networking</td>
-            <td>🌟🌟🌟</td>
-          </tr>
-          <tr>
-            <td>Japanese (language)</td>
-            <td>🌟🌟🌟🌟</td>
-          </tr>
-          <tr>
-            <td>Networking</td>
-            <td>🌟🌟🌟</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table border="1">
           <tr>
             <td>C# (programming)</td>
+            <td>🌟🌟🌟</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Networking</td>
             <td>🌟🌟🌟</td>
           </tr>
           <tr>
@@ -119,6 +137,10 @@ the path of the file in order to display it-->
           </tr>
           <tr>
             <td>HTML5</td>
+            <td>🌟🌟</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
             <td>🌟</td>
           </tr>
         </table>
