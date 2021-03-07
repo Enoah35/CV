@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- meta are metadatas, in here it states that this page is using utf-8
+  for encoding. utf-8 are the standard for all possible language characters so
+  always use this encoding when building webpages.-->
+  <meta charset="utf-8">
+  <title>Go's Personal Site</title>
+</head>
+
+<body>
+  <!-- we create this table to stylize the page. So the image goes to the left
+  and the content goes to the right. We also use cellspacing to put space between
+  the cells in the row-->
+  <table cellspacing="20">
+    <tr>
+      <!-- This is where we insert the image. We use img, followed by the src
+    which is the source of the image. it can be an url or it can be a file your
+  pc. You can use it directly if it is in the same directory or have to specify
+the path of the file in order to display it-->
+      <td><img src="images/chunli.png" alt="Go Profile picture"></td>
+      <td>
+        <h1>Go Ushiyama</h1>
+        <p><em>IT Technician of <strong><a href="https://www.topcon-medical.eu/es/">Topcon Medical Spain</a></strong></em></p>
+        <p>I love gaming, reading detective novel. Currently studying very hard on <br />
+          programming, now switched to web programming in hopes to one day get a job<br />
+          in this industry.</p>
+      </td>
+    </tr>
+  </table>
+  <hr />
+  <h3>Education</h3>
+  <!-- unsorted list like bullet points -->
+  <ul>
+    <!-- the actual data inside the list using li-->
+    <li>Graduated Highschool in Kensington School of barcelona</li>
+    <li>Did not complete University of Computer Science due to Real life issues(incompetence of mine)</li>
+    <li>Finished Colledge of Brighton for GNVQ Intermediate in Engineering<br /></li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <!-- we can use <table size ="1"> for example. But it is not recommended Science
+  we are using html to structure and not for style -->
+  </table>
+  <table cellspacing="10">
+    <!-- for structure reasons it is best not to use the <thead>
+      to use as a title. Since there are times we wish to use these spaces
+      for Javascript or CSS-->
+    </thead>
+    <thead>
+      <!-- trows makes a row for the table -->
+      <tr>
+        <!-- td are table data, where we actually put our values in the row-->
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <!-- like in html the table body or tbody is where we insert the actual data-->
+    <tbody>
+      <tr>
+        <td>2002-2021</td>
+        <td>IT Technician / Help desk in Topcon Medical Spain</td>
+      </tr>
+      <tr>
+        <td>2001-2002</td>
+        <td>Some other work</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+
+  </table>
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>
+        <table border=" 1">
+          <tr>
+            <td>Spanish (language)</td>
+            <td>🌟🌟🌟🌟🌟</td>
+          <tr>
+            <td>English (language)</td>
+            <td>🌟🌟🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Japanese (language)</td>
+            <td>🌟🌟🌟🌟</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table border="1">
+          <tr>
+            <td>Networking</td>
+            <td>🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Japanese (language)</td>
+            <td>🌟🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Networking</td>
+            <td>🌟🌟🌟</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table border="1">
+          <tr>
+            <td>C# (programming)</td>
+            <td>🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>SQL (MSSQL)</td>
+            <td>🌟🌟</td>
+          </tr>
+          <tr>
+            <td>HTML5</td>
+            <td>🌟</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <!-- anchors, or hyperlinks. always use href and its destination which can be
+  an url or another file of your webpage-->
+  <a href="hobbies.html">My Hobbies</a>
+  <a href="contact-me.html">Contact Me</a>
+</body>
+
+</html>
